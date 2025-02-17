@@ -1,0 +1,14 @@
+C:\vs code\cdealy_na_easy\bin\Debug\net8.0\cdealy_na_easy.exe
+C:\vs code\cdealy_na_easy\bin\Debug\net8.0\cdealy_na_easy.deps.json
+C:\vs code\cdealy_na_easy\bin\Debug\net8.0\cdealy_na_easy.runtimeconfig.json
+C:\vs code\cdealy_na_easy\bin\Debug\net8.0\cdealy_na_easy.dll
+C:\vs code\cdealy_na_easy\bin\Debug\net8.0\cdealy_na_easy.pdb
+C:\vs code\cdealy_na_easy\obj\Debug\net8.0\cdealy_na_easy.GeneratedMSBuildEditorConfig.editorconfig
+C:\vs code\cdealy_na_easy\obj\Debug\net8.0\cdealy_na_easy.AssemblyInfoInputs.cache
+C:\vs code\cdealy_na_easy\obj\Debug\net8.0\cdealy_na_easy.AssemblyInfo.cs
+C:\vs code\cdealy_na_easy\obj\Debug\net8.0\cdealy_na_easy.csproj.CoreCompileInputs.cache
+C:\vs code\cdealy_na_easy\obj\Debug\net8.0\cdealy_na_easy.dll
+C:\vs code\cdealy_na_easy\obj\Debug\net8.0\refint\cdealy_na_easy.dll
+C:\vs code\cdealy_na_easy\obj\Debug\net8.0\cdealy_na_easy.pdb
+C:\vs code\cdealy_na_easy\obj\Debug\net8.0\cdealy_na_easy.genruntimeconfig.cache
+C:\vs code\cdealy_na_easy\obj\Debug\net8.0\ref\cdealy_na_easy.dll
