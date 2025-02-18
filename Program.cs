@@ -71,8 +71,21 @@ class StudentUse
 
         foreach(var newStudent in newScores)
         {
-            
+            foreach(var oldStudent in _students)
+            {
+                if (newStudent.Id == oldStudent.Id)
+                {
+                    oldStudent.Rating = newStudent.Rating;
+                }
+                else
+                {
+                    _students.Add(newStudent);
+                }
+            }
         }
+
+        string json_2 = JsonConvert.SerializeObject(_students, Formatting.Indented);
+        File.WriteAllText(_filePath, json_2);
     }
 }
 
@@ -130,6 +143,12 @@ class Program
                     break;
 
                 case "4":
+
+                    Console.WriteLine("Введите путь к файлу");
+                    var vvod_in_case_4 = Console.ReadLine() ?? "";
+
+                    students.UpdateRatings($@"{vvod_in_case_4}");
+                    
                     break;
                 case "5":
                     return;
