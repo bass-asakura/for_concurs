@@ -4,6 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        string readContent = File.ReadAllText(@"C:\vs code\cdealy_na_easy\name.txt");
+        Console.WriteLine(readContent);
     }
 }
