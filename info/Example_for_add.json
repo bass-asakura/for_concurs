@@ -2,31 +2,31 @@
   {
     "Id": 1,
     "FullName": "Иванов Иван Иванович",
-    "Rating": 5
+    "Rating": 643
   },
   {
     "Id": 2,
     "FullName": "Петров Петр Петрович",
-    "Rating": 16
+    "Rating": 62
   },
   {
     "Id": 3,
     "FullName": "Сидорова Анна Сергеевна",
-    "Rating": 4
+    "Rating": 531
   },
   {
     "Id": 4,
     "FullName": "Акова Алена Андреевна",
-    "Rating": 8
+    "Rating": 61
   },
   {
     "Id": 5,
     "FullName": "Яров Яков Яковлевич",
-    "Rating": 34
+    "Rating": 89
   },
   {
     "Id": 163,
     "FullName": "Арумов Богдан Васильевич",
-    "Rating": 33
+    "Rating": 235
   }
 ]

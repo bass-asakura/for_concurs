@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("cdealy_na_easy")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4a3907eb23cf619538df027399502fa35866c233")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f26ed7177a717ec800337ac0f7fcc77cf896e6ca")]
 [assembly: System.Reflection.AssemblyProductAttribute("cdealy_na_easy")]
 [assembly: System.Reflection.AssemblyTitleAttribute("cdealy_na_easy")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

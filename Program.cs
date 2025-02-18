@@ -100,7 +100,7 @@ class Program
 
             Console.WriteLine("1 - Показать таблицу");
             Console.WriteLine("2 - Отсортировать по рейтингу");
-            Console.WriteLine("3 - Отсортировать по имени");
+            Console.WriteLine("3 - Отсортировать по ФИО");
             Console.WriteLine("4 - Внести изменения");
             Console.WriteLine("5 - Выход");
             
