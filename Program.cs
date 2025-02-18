@@ -17,6 +17,7 @@ class StudentUse
     public StudentUse(string filePath)
     {
         _filePath = filePath;
+        _students = new List<Student>();
         CreateFile();
     }
 
@@ -26,10 +27,6 @@ class StudentUse
         {
             string json = File.ReadAllText(_filePath);
             _students = JsonConvert.DeserializeObject<List<Student>>(json) ?? new List<Student>();
-        }
-        else
-        {
-            _students = new List<Student>();
         }
     }
     
@@ -69,19 +66,17 @@ class StudentUse
         string json = File.ReadAllText(newFilePath);
         var newScores = JsonConvert.DeserializeObject<List<Student>>(json) ?? new List<Student>();
 
-        foreach(var newStudent in newScores)
+        foreach (var newStudent in newScores)
         {
-            for (int i = _students.Count - 1; i >= 0; i--)
+            var oldStudent = _students.FirstOrDefault(s => s.Id == newStudent.Id);
+
+            if (oldStudent != null)
             {
-                if (newStudent.Id == _students[0].Id)
-                {
-                    _students[0].Rating = newStudent.Rating;
-                }
-                else
-                {
-                    _students.Add(newStudent);
-                    break;
-                }
+                oldStudent.Rating = newStudent.Rating;
+            }
+            else
+            {
+                _students.Add(newStudent);
             }
         }
 
