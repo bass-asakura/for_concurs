@@ -71,11 +71,11 @@ class StudentUse
 
         foreach(var newStudent in newScores)
         {
-            foreach(var oldStudent in _students)
+            for (int i = _students.Count - 1; i >= 0; i--)
             {
-                if (newStudent.Id == oldStudent.Id)
+                if (newStudent.Id == _students[0].Id)
                 {
-                    oldStudent.Rating = newStudent.Rating;
+                    _students[0].Rating = newStudent.Rating;
                 }
                 else
                 {
@@ -145,7 +145,7 @@ class Program
                 case "4":
 
                     Console.WriteLine("Введите путь к файлу");
-                    var vvod_in_case_4 = Console.ReadLine() ?? "";
+                    string vvod_in_case_4 = Console.ReadLine() ?? "";
 
                     students.UpdateRatings($@"{vvod_in_case_4}");
                     
