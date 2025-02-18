@@ -45,11 +45,11 @@ class StudentUse
     {
         if (bol == true) 
         {
-            _students = _students.OrderByDescending(s => s.Rating).ToList();
+            _students = _students.OrderByDescending(s => s.Rating).ThenBy(s => s.FullName).ToList();
         }
         else 
         {
-            _students = _students.OrderBy(s => s.Rating).ToList();
+            _students = _students.OrderBy(s => s.Rating).ThenBy(s => s.FullName).ToList();
         }
     }
 
