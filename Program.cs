@@ -18,10 +18,10 @@ class StudentUse
     {
         _filePath = filePath;
         _students = new List<Student>();
-        CreateFile();
+        ReadFile();
     }
 
-    private void CreateFile()
+    private void ReadFile()
     {
         if (File.Exists(_filePath))
         {
@@ -38,9 +38,9 @@ class StudentUse
         }
     }
 
-    public void SortByRating(bool bol)
+    public void SortByRating(bool reverse)
     {
-        if (bol == true) 
+        if (reverse == true) 
         {
             _students = _students.OrderByDescending(s => s.Rating).ThenBy(s => s.FullName).ToList();
         }
@@ -63,8 +63,8 @@ class StudentUse
             return;
         }
         
-        string json = File.ReadAllText(newFilePath);
-        var newScores = JsonConvert.DeserializeObject<List<Student>>(json) ?? new List<Student>();
+        string newJson = File.ReadAllText(newFilePath);
+        var newScores = JsonConvert.DeserializeObject<List<Student>>(newJson) ?? new List<Student>();
 
         foreach (var newStudent in newScores)
         {
@@ -80,8 +80,8 @@ class StudentUse
             }
         }
 
-        string json_2 = JsonConvert.SerializeObject(_students, Formatting.Indented);
-        File.WriteAllText(_filePath, json_2);
+        string jsonAddInFile = JsonConvert.SerializeObject(_students, Formatting.Indented);
+        File.WriteAllText(_filePath, jsonAddInFile);
     }
 }
 
@@ -117,9 +117,9 @@ class Program
 
                     Console.WriteLine("1 - По убыванию\n2 - По возрастанию");
 
-                    var vvod_in_case_2 = Console.ReadLine() ?? "";
+                    var vvodInCase2 = Console.ReadLine() ?? "";
 
-                        if (vvod_in_case_2 == "1")
+                        if (vvodInCase2 == "1")
                         {
                             students.SortByRating(true);
                         }
@@ -141,15 +141,14 @@ class Program
                 case "4":
 
                     Console.WriteLine("Введите путь к файлу");
-                    string vvod_in_case_4 = Console.ReadLine() ?? "";
+                    string vvodInCase4 = Console.ReadLine() ?? "";
 
-                    students.UpdateRatings($@"{vvod_in_case_4}");
-                    
+                    students.UpdateRatings($@"{vvodInCase4}");
                     break;
+
                 case "5":
                     return;
             }
         }
     }
-    
 }   
