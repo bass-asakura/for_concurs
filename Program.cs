@@ -57,6 +57,23 @@ class StudentUse
     {
         _students = _students.OrderBy(s => s.FullName).ToList();
     }
+
+    public void UpdateRatings(string newFilePath)
+    {
+        if (!File.Exists(newFilePath))
+        {
+            Console.WriteLine("Не существующий файл");
+            return;
+        }
+        
+        string json = File.ReadAllText(newFilePath);
+        var newScores = JsonConvert.DeserializeObject<List<Student>>(json) ?? new List<Student>();
+
+        foreach(var newStudent in newScores)
+        {
+            
+        }
+    }
 }
 
 class Program
