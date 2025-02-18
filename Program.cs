@@ -80,6 +80,7 @@ class StudentUse
                 else
                 {
                     _students.Add(newStudent);
+                    break;
                 }
             }
         }
