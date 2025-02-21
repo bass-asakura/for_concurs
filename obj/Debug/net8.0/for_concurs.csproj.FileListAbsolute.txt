@@ -1,0 +1,17 @@
+C:\vs code\for_concurs\bin\Debug\net8.0\for_concurs.exe
+C:\vs code\for_concurs\bin\Debug\net8.0\for_concurs.deps.json
+C:\vs code\for_concurs\bin\Debug\net8.0\for_concurs.runtimeconfig.json
+C:\vs code\for_concurs\bin\Debug\net8.0\for_concurs.dll
+C:\vs code\for_concurs\bin\Debug\net8.0\for_concurs.pdb
+C:\vs code\for_concurs\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\vs code\for_concurs\obj\Debug\net8.0\for_concurs.csproj.AssemblyReference.cache
+C:\vs code\for_concurs\obj\Debug\net8.0\for_concurs.GeneratedMSBuildEditorConfig.editorconfig
+C:\vs code\for_concurs\obj\Debug\net8.0\for_concurs.AssemblyInfoInputs.cache
+C:\vs code\for_concurs\obj\Debug\net8.0\for_concurs.AssemblyInfo.cs
+C:\vs code\for_concurs\obj\Debug\net8.0\for_concurs.csproj.CoreCompileInputs.cache
+C:\vs code\for_concurs\obj\Debug\net8.0\for_conc.5692B1D9.Up2Date
+C:\vs code\for_concurs\obj\Debug\net8.0\for_concurs.dll
+C:\vs code\for_concurs\obj\Debug\net8.0\refint\for_concurs.dll
+C:\vs code\for_concurs\obj\Debug\net8.0\for_concurs.pdb
+C:\vs code\for_concurs\obj\Debug\net8.0\for_concurs.genruntimeconfig.cache
+C:\vs code\for_concurs\obj\Debug\net8.0\ref\for_concurs.dll

@@ -60,11 +60,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\vs code\\cdealy_na_easy\\cdealy_na_easy.csproj",
-      "projectName": "cdealy_na_easy",
-      "projectPath": "C:\\vs code\\cdealy_na_easy\\cdealy_na_easy.csproj",
+      "projectUniqueName": "C:\\vs code\\for_concurs\\for_concurs.csproj",
+      "projectName": "for_concurs",
+      "projectPath": "C:\\vs code\\for_concurs\\for_concurs.csproj",
       "packagesPath": "C:\\Users\\msile\\.nuget\\packages\\",
-      "outputPath": "C:\\vs code\\cdealy_na_easy\\obj\\",
+      "outputPath": "C:\\vs code\\for_concurs\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\msile\\AppData\\Roaming\\NuGet\\NuGet.Config",
