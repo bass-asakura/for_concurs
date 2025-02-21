@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace cdealy_na_easy;
+namespace for_concurs;
 
 class Student
 {
